@@ -20,14 +20,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
+   * @author : Ahmad Ali
    * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
    * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
    * @version 1.0.1
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
+   * Created By Ahmad Ali.
    * © 2023 Suhail-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -133,7 +133,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
   
               
    
-   //str += `╰━━━━━━━━━━━───⊷\nsᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/SuhailTechInfo`
+   //str += `╰━━━━━━━━━━━───⊷\nxIKRATOSx \n www.youtube.com/@xIKRATOSx`
               return await Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str + Config.caption ,footer: tlang().footer, headerType: 4 })
           }
       )

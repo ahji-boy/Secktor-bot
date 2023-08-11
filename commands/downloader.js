@@ -604,7 +604,7 @@ cmd({
                             thumbnail: log0,
                             mediaType: 2,
                             mediaUrl: ``,
-                            sourceUrl: `youtube.com/c/SuhailTechInfo`
+                            sourceUrl: `youtube.com/@xIKRATOSx`
                         }
                     }
                 }
@@ -947,7 +947,7 @@ cmd({
 
 
 // By @SuhailTechInfo
-// https://wa.me/923184474176
+// https://wa.me/923470027813
 // https://www.youtube.com/@suhailtechinfo0
 
 

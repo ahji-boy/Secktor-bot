@@ -4,7 +4,7 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Secktor-Md By Suhail Tech
- * @author : SuhailTech <https://www.youtube.com/c/SuhailTechInfo>
+ * @author : SuhailTech <https://www.youtube.com/@xIKRATOSx>
  * @description : Secktor Bot ,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
