@@ -1369,14 +1369,14 @@ cmd({
 			    await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
 			caption: `
 ╔════◇
-║ *Wow,Someone just*
-║ *leveled Up huh⭐*
+║ *You Leveled Up*
+║ *Congrulations⭐*
 ║ *👤Name*: ${citel.pushName}
 ║ *🎐Level*: ${sck1.level}🍭
 ║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
 ║ *Enjoy🥳*
-╚════════════╝ `   }, { quoted: citel });
+╚════════════╝\n\nFollow on Insta:\n\tinstagram.com/itx_ahmad.ali `   }, { quoted: citel });
 		    }
 	    }
 	})
