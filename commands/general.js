@@ -48,7 +48,7 @@ const axios = require('axios')
 const fetch = require('node-fetch');
 const speed = require('performance-now')
 const API_KEY = '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'
-
+const translatte = require("translatte");
 
 
 
@@ -104,11 +104,12 @@ cmd({
       //  let zx = text.length;
         //if (zx < 300) {
             let {data} = await axios.get(`http://api.brainshop.ai/get?bid=175685&key=Pg8Wu8mrDQjfr0uv&uid=[${citel.sender.split("@")[0]}]&msg=[${text}]`);
-            return citel.reply(data.cnt);  
+	    var whole = await translatte(data.cnt, { from:"auto",  to:"ur", });
+	    if ("text" in whole) { return await citel.reply(whole.text); }
+        //    return citel.reply(data.cnt);  
    // }
-	
-        /*
-	if (!text) return citel.reply(`Hey there! ${citel.pushName}. How are you doing these days?`); // for null text 
+	        /*
+	if (!text) return citel.reply(`Hey there! ${cite.pushName}. How are you doing these days?`); // for null text 
 	
         const { Configuration, OpenAIApi } = require("openai");
         const configuration = new Configuration
